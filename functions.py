@@ -2,8 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np 
 from detecto import core, utils, visualize
 import cv2
-# import functions
-from functions import *
 
 model = core.Model.load('./model/id_card_4_corner.pth', ['top_left', 'top_right', 'bottom_left', 'bottom_right'])
 # function

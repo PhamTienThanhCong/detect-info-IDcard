@@ -1,7 +1,8 @@
 # import libraries
-import matplotlib.pyplot as plt
 from datetime import datetime
 from functions import *
+from detect_text_img import detect_text_img
+from img_to_text import img_to_text
 from flask import Flask, request, jsonify
 
 # create flask app
@@ -27,7 +28,11 @@ def api():
         # save image
         cv2.imwrite(new_name_2, img_crop)
         
-        return jsonify({"message":"image cut success"})
+        detect_text_img(new_name_2, new_name)
+
+        data = img_to_text(new_name)
+
+        return jsonify(data)
     else:
         return jsonify({"message": "hinh anh ban chup khong phu hop"})
 

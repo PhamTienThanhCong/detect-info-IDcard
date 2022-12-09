@@ -32,6 +32,10 @@ def api():
 
         data = img_to_text(new_name)
 
+        # đọc file txt và ghi tiếp vào cuối file
+        f = open("./data_upload/data.txt", "a")
+        f.write(str(data) + ".\n")
+
         return jsonify(data)
     else:
         return jsonify({"message": "hinh anh ban chup khong phu hop"})

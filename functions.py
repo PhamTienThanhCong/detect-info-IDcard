@@ -1,4 +1,3 @@
-import matplotlib.pyplot as plt
 import numpy as np 
 from detecto import core, utils, visualize
 import cv2
@@ -90,11 +89,11 @@ def detect_id_cart(image):
     if "top_right" not in labels:
         return None
     image2 = image.copy()
-    for i, bbox in enumerate(boxes):
-        bbox = list(map(int, bbox))
-        x_min, y_min, x_max, y_max = bbox
-        cv2.rectangle(image,(x_min,y_min),(x_max,y_max),(0,255,0),2)
-        cv2.putText(image, labels[i], (x_min, y_min), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0))
+    # for i, bbox in enumerate(boxes):
+    #     bbox = list(map(int, bbox))
+    #     x_min, y_min, x_max, y_max = bbox
+    #     cv2.rectangle(image,(x_min,y_min),(x_max,y_max),(0,255,0),2)
+    #     cv2.putText(image, labels[i], (x_min, y_min), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0))
 
     final_boxes, final_labels = non_max_suppression_fast(np.array(boxes), labels, 0.3) 
     final_points = list(map(get_center_point, final_boxes))

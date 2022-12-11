@@ -1,3 +1,4 @@
 {'Mã số': '02618012', 'Họ tên': 'Nguyễn Đảng Chinh', 'Ngày sinh': '29:01:1979', 'Nguyên Quán': 'Quảng Ngãi', 'Nơi ĐKHK thường trú': '649/19 Điện Biên Phủ, P25, BT, TP. Hồ, Chí Minh '}.
 {'Mã số': '034194626868', 'Họ tên': 'TRẦN DUY TUẤN', 'Ngày sinh': '13:05:1999', 'Nguyên Quán': 'Son Trach Bổ Trạch Quảng Bình', 'Nơi ĐKHK thường trú': 'Sơn.Trach Bố. Trạch, Quảng. Bình '}.
 {'Mã số': '02618012', 'Họ tên': 'Nguyễn Đảng Chinh', 'Ngày sinh': '29:01:1979', 'Nguyên Quán': 'Quảng Ngãi', 'Nơi ĐKHK thường trú': '649/19 Điện Biên Phủ, P25, BT, TP. Hồ, Chí Minh '}.
+{'Mã số': '02618012', 'Họ tên': 'Nguyễn Đảng Chinh', 'Ngày sinh': '29:01:1979', 'Nguyên Quán': 'Quảng Ngãi', 'Nơi ĐKHK thường trú': '649/19 Điện Biên Phủ, P25, BT, TP. Hồ, Chí Minh '}.

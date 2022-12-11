@@ -17,7 +17,7 @@ def api():
         new_name_1 = "./data_upload/raw/" + new_name + '.jpg'
         uploaded_file.save(new_name_1)
     else:
-        return jsonify({"message": "khong co file duoc chon"})
+        return jsonify({"message": "không có file được chọn"})
 
     image = utils.read_image(new_name_1)
     img_crop = detect_id_cart(image)

@@ -1,4 +1,4 @@
-# detect-info-IDcard
+# detect info IDcard (Trích xuất thông tin trong căn cước công dân)
 Phân tích và đọc thông tin trong căn cước công dân
 
 ## run app 

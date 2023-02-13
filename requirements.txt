@@ -1,0 +1,8 @@
+craft_text_detector==0.4.3
+detecto==1.2.2
+Flask==2.2.2
+ipython==8.10.0
+numpy==1.23.3
+opencv_python==4.5.4.60
+Pillow==9.4.0
+vietocr==0.3.9

@@ -7,7 +7,7 @@ Phân tích và đọc thông tin trong căn cước công dân
     - link: https://drive.google.com/file/d/1JqzGUrBUVklKUSJP6DHDD7j4hwmY4ZUi/view?usp=share_link
     - Sau đó để tại model/id_card_4_corner.pth
   - Model của viet ORC để nhận diện chữ:
-    - Link: https://drive.google.com/uc?id=13327Y1tz1ohsm5YZMyXVMPIOjoOA0OaA
+    - Link: https://drive.google.com/drive/folders/1uIBuiYedlIePAHNC_BSN7WB4GHhuhJQp?usp=drive_link
     - Sau đó để tại model/transformerocr.pth
 - Chạy code:
   ` Python main.py ` server: http://127.0.0.1:5000
